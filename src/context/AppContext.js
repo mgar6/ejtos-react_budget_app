@@ -120,3 +120,8 @@ export const AppProvider = (props) => {
         </AppContext.Provider>
     );
 };
+
+/*
+ You will be creating reducer, which is used to update the state, based on the action. Then you will set the initial state for the departments. You will be creating the Provider component which wraps the components you want to give access to the state.
+Here, you are adding an initial budget, creating a Provider component, setting up the useReducer hook which will hold your state, and allow you to update the state via dispatch.
+*/
